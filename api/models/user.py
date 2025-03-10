@@ -1,5 +1,7 @@
 from django.db import models
 
+# https://docs.djangoproject.com/en/5.1/topics/db/models/
+
 class User(models.Model):
     # TODO: chuck in a config file
     user_name = models.CharField(max_length=30)
